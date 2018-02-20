@@ -3,7 +3,8 @@
 [![Docker Automated build](https://img.shields.io/docker/automated/stixes/docker-hook.svg)](https://hub.docker.com/r/stixes/docker-hook/)
 [![Docker build status](https://img.shields.io/docker/build/stixes/docker-hook.svg)](https://hub.docker.com/r/stixes/docker-hook/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/stixes/docker-hook.svg)](https://hub.docker.com/r/stixes/docker-hook/)
-[![Docker stars](https://img.shields.io/docker/stars/stixes/docker-hook.svg?style=social&label=Star)](https://hub.docker.com/r/stixes/docker-hook)
+[![Docker stars](https://img.shields.io/docker/stars/stixes/docker-hook.svg)](https://hub.docker.com/r/stixes/docker-hook)
+
 
 This is a Docker wrapping for [`docker-hook`](https://github.com/schickling/docker-hook). This wraps the
 very simple webhook with tools that enables updating and deploying a Docker based server.
