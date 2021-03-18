@@ -27,11 +27,8 @@ class RequestHandler(BaseHTTPRequestHandler):
     """A POST request handler which expects a token in its path."""
 
     def do_POST(self):
-        logging.info("0: ")
         logging.info("Path: %s", self.path)
         env = dict(os.environ)
-        logging.info("3: ")
-
 
         # Check if the secret URL was called
         token = args.token or os.environ.get("DOCKER_AUTH_TOKEN")
