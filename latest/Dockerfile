@@ -2,7 +2,7 @@ FROM tmaier/docker-compose:latest
 MAINTAINER Jesper Mathiassen "jesper.mathiassen+dckr@gmail.com"
 
 RUN apk update && \
-    apk add python py-requests curl && \
+    apk add python3 py-requests curl && \
     rm -rf /var/cache/apk/* && \
 ## Use fork until non-JSON input patch is merged
 #    curl -L -o /docker-hook https://raw.githubusercontent.com/schickling/docker-hook/master/docker-hook && \
