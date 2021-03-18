@@ -5,8 +5,7 @@ RUN apk update && \
     apk add python3 py-requests curl && \
     rm -rf /var/cache/apk/* && \
 ## Use fork until non-JSON input patch is merged
-#    curl -L -o /docker-hook https://raw.githubusercontent.com/schickling/docker-hook/master/docker-hook && \
-    curl -L -o /docker-hook https://raw.githubusercontent.com/stixes/docker-hook-1/master/docker-hook && \
+    curl -L -o /docker-hook https://raw.githubusercontent.com/ScyDev/docker-hook-1/master/docker-hook && \
     chmod +x /docker-hook
 
 EXPOSE 8555
