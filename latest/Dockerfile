@@ -4,7 +4,7 @@ MAINTAINER Jesper Mathiassen "jesper.mathiassen+dckr@gmail.com"
 ADD ./docker-hook /docker-hook
 
 RUN apk update && \
-    apk add python3 py-requests curl && \
+    apk add python3 py-requests curl rsync && \
     rm -rf /var/cache/apk/* && \
     chmod +x /docker-hook
 
